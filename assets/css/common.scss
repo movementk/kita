@@ -1,4 +1,5 @@
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700');
 
 @font-face {
     font-family: 'Noto Sans KR';
@@ -17,7 +18,10 @@
     font-family: 'Noto Sans KR', sans-serif;
 }
 @mixin arial() {
-    font-family: 'Arial', sans-serif; 
+    font-family: 'Arial', sans-serif;
+}
+@mixin titi() {
+    font-family: 'Titillium Web', sans-serif;
 }
 
 @mixin transition($property: all, $duration: .15s, $timing: linear, $delay: 0s) {
