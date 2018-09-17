@@ -2,7 +2,7 @@
 <section class="section location-guide">
     <div class="container">
         <div class="section-header">
-            <h2>전시장 위치 안내</h2>
+            <h2>展区位置</h2>
         </div>
         <div class="section-content">
             <ol class="guide-list">
@@ -15,49 +15,49 @@
                 <li>
                     <a href="#">
                         <h3>2H</h3>
-                        <p class="summary">服务贸易展区</p>
+                        <p class="summary">服务贸易</p>
                     </a>
                 </li>
                 <li>
                     <a href="#">
                         <h3>3H</h3>
-                        <p class="summary">服务贸易展区</p>
+                        <p class="summary">贸智易能展及区高端装备展区</p>
                     </a>
                 </li>
                 <li>
                     <a href="#">
                         <h3>4.1H</h3>
-                        <p class="summary">服务贸易展区</p>
+                        <p class="summary">贸智易能展及区高端装备展区</p>
                     </a>
                 </li>
                 <li>
                     <a href="#">
                         <h3>5.1H</h3>
-                        <p class="summary">服务贸易展区</p>
+                        <p class="summary">消费及电子家电展区•</p>
                     </a>
                 </li>
                 <li>
                     <a href="#">
                         <h3>6.1H</h3>
-                        <p class="summary">服务贸易展区</p>
+                        <p class="summary">服装服饰及日用消费品展区</p>
                     </a>
                 </li>
                 <li>
                     <a href="#">
                         <h3>7.1H</h3>
-                        <p class="summary">服务贸易展区</p>
+                        <p class="summary">医疗器械及医药保健展区</p>
                     </a>
                 </li>
                 <li>
                     <a href="#">
                         <h3>7.2H</h3>
-                        <p class="summary">服务贸易展区</p>
+                        <p class="summary">食品及农产品展区</p>
                     </a>
                 </li>
                 <li>
                     <a href="#">
                         <h3>8.2H</h3>
-                        <p class="summary">服务贸易展区</p>
+                        <p class="summary">食品及农产品展区</p>
                     </a>
                 </li>
             </ol>
