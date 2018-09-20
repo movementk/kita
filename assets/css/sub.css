@@ -89,6 +89,9 @@ a {
       font-size: 20px;
       margin-top: 10px;
       font-family: 'Arial', sans-serif; }
+    .section-header h2.arial {
+      font-weight: 300;
+      font-family: 'Arial', sans-serif; }
 
 .trade-tab {
   margin-bottom: 50px; }
@@ -290,5 +293,47 @@ a {
         .sub-modal-popup .modal-dialog .modal-content .modal-body figure .img-fluid {
           display: block;
           margin: 0 auto; }
+
+.search-result .section-header .search-form {
+  position: relative;
+  width: 430px;
+  margin: 60px auto 0; }
+  .search-result .section-header .search-form .form-group .form-control {
+    width: 100%;
+    height: 60px;
+    padding: 17px;
+    padding-right: 65px;
+    border: 1px solid #fff;
+    background-color: #fff; }
+  .search-result .section-header .search-form .form-group .btn-search {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    color: #1b1b1d;
+    text-align: center;
+    line-height: 60px; }
+.search-result .section-content {
+  margin-top: 60px;
+  border-top: 2px solid #666; }
+  .search-result .section-content .none-result {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 16px;
+    color: #999;
+    font-weight: 400; }
+  .search-result .section-content .trade-list {
+    margin-top: 50px; }
+    .search-result .section-content .trade-list > ul > li > a {
+      display: block;
+      border: 1px solid #e2e2e2; }
+      .search-result .section-content .trade-list > ul > li > a figure .img-fluid {
+        width: 100%; }
+    .search-result .section-content .trade-list > ul > li:nth-of-type(4) ~ li > a {
+      margin-top: 30px; }
+  .search-result .section-content .paging {
+    margin-top: 60px; }
 
 /*# sourceMappingURL=sub.css.map */

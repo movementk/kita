@@ -76,13 +76,6 @@ a {
       font-size: 20px;
       margin-top: 10px;
       font-family: 'Arial', sans-serif; }
-.section.intro {
-  background-image: url(/assets/images/visual.jpg);
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-size: cover; }
-  .section.intro h1 {
-    color: #fff; }
 .section.location-guide {
   background-color: #f1ede6; }
   .section.location-guide .section-content {
@@ -391,5 +384,115 @@ a {
           transition-delay: 0s; }
           .modal-popup .modal-dialog .modal-content .modal-body .btn-area p .btn-more:hover {
             opacity: .7; }
+
+.intro {
+  position: relative;
+  background-image: url(/assets/images/main/bg_intro.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover; }
+  .intro .section-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 30px 0 !important;
+    margin: 0;
+    overflow: hidden; }
+    .intro .section-header figure:first-child {
+      float: left; }
+    .intro .section-header figure:last-child {
+      float: right;
+      padding-top: 20px; }
+  .intro .section-content {
+    text-align: center;
+    padding-top: 5%; }
+    .intro .section-content h2 {
+      font-size: 110px;
+      color: #666;
+      font-weight: 500; }
+      .intro .section-content h2 small {
+        font-size: 38px;
+        font-weight: bold;
+        letter-spacing: 3px;
+        font-family: 'Arial', sans-serif;
+        display: block;
+        margin-top: 20px; }
+    .intro .section-content figure {
+      margin-top: 30px; }
+      .intro .section-content figure .img-fluid {
+        display: inline-block; }
+    .intro .section-content .details {
+      margin-top: 40px; }
+      .intro .section-content .details dl {
+        color: #333; }
+        .intro .section-content .details dl dt {
+          display: inline-block; }
+          .intro .section-content .details dl dt:after {
+            content: ":";
+            margin: 0 3px; }
+        .intro .section-content .details dl dd {
+          display: inline-block; }
+        .intro .section-content .details dl.chn {
+          font-size: 23px; }
+        .intro .section-content .details dl.eng {
+          font-size: 18px;
+          margin-top: 10px; }
+    .intro .section-content .btn-area {
+      margin-top: 50px; }
+      .intro .section-content .btn-area p {
+        font-size: 0; }
+        .intro .section-content .btn-area p .btn {
+          display: inline-block;
+          font-size: 20px;
+          color: #333;
+          width: 235px;
+          height: 65px;
+          line-height: 61px;
+          -webkit-transition-property: all;
+          transition-property: all;
+          -webkit-transition-duration: 0.15s;
+          transition-duration: 0.15s;
+          -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+          -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+          margin-right: 30px;
+          border: 2px solid #999;
+          background: none; }
+          .intro .section-content .btn-area p .btn:last-child {
+            margin-right: 0; }
+          .intro .section-content .btn-area p .btn:hover {
+            color: #fff;
+            border-color: #b71f25;
+            background-color: #b71f25; }
+          .intro .section-content .btn-area p .btn.btn-eng {
+            font-weight: 300;
+            font-family: 'Arial', sans-serif; }
+    .intro .section-content .ico-scroll {
+      margin-top: 40px;
+      /*figcaption {
+          margin-top: 10px;
+          font-size: 13px;
+          color: #999;
+          font-weight: lighter;
+          letter-spacing: 1px;
+          @include arial();
+      }*/ }
+      .intro .section-content .ico-scroll img {
+        position: relative;
+        top: -15px;
+        display: inline-block;
+        opacity: 1;
+        -webkit-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: linear;
+        transition-timing-function: linear;
+        -webkit-transition-delay: 0s;
+        transition-delay: 0s; }
+      .intro .section-content .ico-scroll.on img {
+        top: 0px; }
 
 /*# sourceMappingURL=main.css.map */

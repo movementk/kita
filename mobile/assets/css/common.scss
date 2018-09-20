@@ -1,0 +1,114 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanssc.css);
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700');
+
+@mixin noto() {
+    font-family: 'Noto Sans SC', sans-serif;
+}
+@mixin arial() {
+    font-family: 'Arial', sans-serif;
+}
+@mixin titi() {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+@mixin transition($property: all, $duration: .15s, $timing: linear, $delay: 0s) {
+	-webkit-transition-property: $property;
+    transition-property: $property;
+	-webkit-transition-duration: $duration;
+    transition-duration: $duration;
+	-webkit-transition-timing-function: $timing;
+    transition-timing-function: $timing;
+	-webkit-transition-delay: $delay;
+    transition-delay: $delay;
+}
+
+h1, h2, h3,h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none !important;
+    &:hover {
+        color: inherit;
+    }
+}
+
+figure {
+    margin: 0;
+}
+
+ul, ol {
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+dl {
+    margin-bottom: 0;
+    dt {
+        font-weight: 400;
+    }
+    dd {
+        font-weight: 400;
+        margin: 0;
+    }
+}
+
+address {
+    margin-bottom: 0;
+}
+
+label {
+    margin: 0;
+    font-weight: 400;
+}
+
+.btn {
+    padding: 0;
+    border: 0;
+    background: none;
+    border-radius: 0;
+    box-shadow: none !important;
+}
+
+.form-group {
+    margin: 0;
+}
+
+.form-control {
+    border-radius: 0;
+    box-shadow: none !important;
+}
+
+body {
+    position: relative;
+    @include noto();
+    font-size: 12px;
+    color: #666;
+    font-weight: 400;
+    min-width: 320px;
+}
+
+.container {
+    max-width: 100% !important;
+    padding: 0 10px !important;
+    .row {
+        overflow: hidden;
+        margin-left: -5px;
+        margin-right: -5px;
+        @for $i from 1 through 12 {
+            .col-#{$i},
+            .col-md-#{$i},
+            .col-lg-#{$i} {
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+        }
+    }
+}

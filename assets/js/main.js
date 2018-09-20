@@ -14,7 +14,14 @@
     $(document).on('mouseleave', '.guide-list', function() {
         $('.guide-list > li').removeClass('active');
     });
-
+    
+    // scroll event
+    $(window).load(function(){
+        setInterval(function(){
+            $('.intro .ico-scroll').toggleClass('on');
+        }, 500);
+    });
+    
     function changeUrl(title, url){
         if(typeof(history.pushState) != "undefined"){
             var obj = { Title: title, ChangeUrl: url };

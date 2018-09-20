@@ -8,12 +8,45 @@
     <main id="fullpage">
         <!-- intro -->
         <section class="section intro">
-            <div class="container">
-                <h1>
-                    2018 CHINA<br>INTERNATIONAL<br>IMPORT EXPO
-                </h1>
-                <a href="javascript:;" class="moveBtn" data-type="eng">ENG</a>
-                <a href="javascript:;" class="moveBtn" data-type="chn">CHN</a>
+            <div class="section-header">
+                <div class="container-fulid">
+                    <figure>
+                        <img src="/assets/images/main/kita_logo.png" alt="">
+                    </figure>
+                    <figure>
+                        <img src="/assets/images/main/img_import_expo.png" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="section-content">
+                <div class="container">
+                    <h2>
+                        韩国企业馆
+                        <small>KOREA COMPANY PAVILLION</small>
+                    </h2>
+                    <figure>
+                        <img src="/assets/images/main/img_intro.png" alt="">
+                    </figure>
+                    <div class="details">
+                        <dl class="chn">
+                            <dt>申请对接及咨询</dt>
+                            <dd>021-6236-8289 , <a href="mailto:kitash01@kita.net">kitash01@kita.net</a></dd>
+                        </dl>
+                        <dl class="eng">
+                            <dt>Inquiries for business meeting</dt>
+                            <dd>+82-21-6236-8289 , <a href="mailto:kitash01@kita.net">kitash01@kita.net</a></dd>
+                        </dl>
+                    </div>
+                    <div class="btn-area">
+                        <p>
+                            <a href="javascript:;" class="moveBtn btn btn-chn" role="button" data-type="chn">中文</a>
+                            <a href="javascript:;" class="moveBtn btn btn-eng" role="button" data-type="eng">ENGLISH</a>
+                        </p>
+                    </div>
+                    <figure class="ico-scroll">
+                        <img src="/assets/images/main/ico_scroll.png" alt="">
+                    </figure>
+                </div>
             </div>
         </section>
 
