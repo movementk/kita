@@ -39,6 +39,8 @@ body {
   color: #666;
   font-weight: 400;
   min-width: 1200px; }
+  body.eng {
+    font-family: 'Arial', sans-serif !important; }
 
 .container {
   max-width: 1200px !important; }

@@ -39,6 +39,8 @@ body {
   color: #666;
   font-weight: 400;
   min-width: 1200px; }
+  body.eng {
+    font-family: 'Arial', sans-serif !important; }
 
 .container {
   max-width: 1200px !important; }
@@ -341,5 +343,8 @@ a {
         margin-right: 20px; }
       .paging .pagination li.next > a {
         margin-left: 20px; }
+
+body.eng #nav .nav-body .gnb-menu > ul > li > a {
+  font-size: 24px !important; }
 
 /*# sourceMappingURL=default.css.map */

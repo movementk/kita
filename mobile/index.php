@@ -52,8 +52,8 @@
             </div>
         </section>
 
-        <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/chn/location_guide.php'); ?>
-        <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/chn/service_trade.php'); ?>
+        <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/eng/location_guide.php'); ?>
+        <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/eng/service_trade.php'); ?>
     </main>
     
     <!-- modal-popup -->

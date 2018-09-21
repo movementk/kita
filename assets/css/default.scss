@@ -330,3 +330,24 @@
         }
     }
 }
+
+body {
+    &.eng {
+        #nav {
+            .nav-body {
+                .gnb-menu {
+                    > ul {
+                        > li {
+                            > a {
+                                font-size: 24px !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+

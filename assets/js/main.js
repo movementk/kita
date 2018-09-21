@@ -15,6 +15,13 @@
         $('.guide-list > li').removeClass('active');
     });
     
+    $(document).on('click', '.btn-eng', function(){
+        $('body').addClass('eng');
+    });
+    $(document).on('click', '.btn-chn', function(){
+        $('body').removeClass('eng');
+    });
+        
     // scroll event
     $(window).load(function(){
         setInterval(function(){

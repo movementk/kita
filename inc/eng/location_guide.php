@@ -64,31 +64,31 @@
             <article class="location-area">
                 <div class="map">
                     <a href="#" class="area-1">
-                        <img src="/assets/images/main/img_area01.png" alt="">
+                        <img src="/assets/images/main/eng/img_area01.png" alt="">
                     </a>
                     <a href="#" class="area-2">
-                        <img src="/assets/images/main/img_area02.png" alt="">
+                        <img src="/assets/images/main/eng/img_area02.png" alt="">
                     </a>
                     <a href="#" class="area-3">
-                        <img src="/assets/images/main/img_area03.png" alt="">
+                        <img src="/assets/images/main/eng/img_area03.png" alt="">
                     </a>
                     <a href="#" class="area-4">
-                        <img src="/assets/images/main/img_area04.png" alt="">
+                        <img src="/assets/images/main/eng/img_area04.png" alt="">
                     </a>
                     <a href="#" class="area-5">
-                        <img src="/assets/images/main/img_area05.png" alt="">
+                        <img src="/assets/images/main/eng/img_area05.png" alt="">
                     </a>
                     <a href="#" class="area-6">
-                        <img src="/assets/images/main/img_area06.png" alt="">
+                        <img src="/assets/images/main/eng/img_area06.png" alt="">
                     </a>
                     <a href="#" class="area-7">
-                        <img src="/assets/images/main/img_area07.png" alt="">
+                        <img src="/assets/images/main/eng/img_area07.png" alt="">
                     </a>
                     <a href="#" class="area-8">
-                        <img src="/assets/images/main/img_area08.png" alt="">
+                        <img src="/assets/images/main/eng/img_area08.png" alt="">
                     </a>
                     <a href="#" class="area-9">
-                        <img src="/assets/images/main/img_area09.png" alt="">
+                        <img src="/assets/images/main/eng/img_area09.png" alt="">
                     </a>
                 </div>
             </article>

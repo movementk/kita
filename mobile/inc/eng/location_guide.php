@@ -19,7 +19,7 @@
                             <ul>
                                 <li>
                                     <a href="#">
-                                        <img src="/mobile/assets/images/main/img_link02.png" class="img-fluid" alt="">
+                                        <img src="/mobile/assets/images/main/eng/img_link02.png" class="img-fluid" alt="">
                                     </a>
                                 </li>
                                 <li>
@@ -27,7 +27,7 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img src="/mobile/assets/images/main/img_link01.png" class="img-fluid" alt="">
+                                        <img src="/mobile/assets/images/main/eng/img_link01.png" class="img-fluid" alt="">
                                     </a>
                                 </li>
                             </ul>
@@ -44,11 +44,11 @@
                         </li>
                         <li>
                             <a href="#">
-                                <img src="/mobile/assets/images/main/img_link03.png" class="img-fluid top-4" alt="">
+                                <img src="/mobile/assets/images/main/eng/img_link03.png" class="img-fluid top-4" alt="">
                             </a>
                             <img src="/mobile/assets/images/main/img_space_left_body_middle.png" class="img-fluid" alt="">
                             <a href="#">
-                                <img src="/mobile/assets/images/main/img_link04_1.png" class="img-fluid top-4" alt="">
+                                <img src="/mobile/assets/images/main/eng/img_link04_1.png" class="img-fluid top-4" alt="">
                             </a>
                         </li>
                         <li>
@@ -56,16 +56,16 @@
                         </li>
                         <li>
                             <a href="#">
-                                <img src="/mobile/assets/images/main/img_link08_2.png" class="img-fluid" alt="">
+                                <img src="/mobile/assets/images/main/eng/img_link08_2.png" class="img-fluid" alt="">
                             </a>
                             <img src="/mobile/assets/images/main/img_space_right_body_middle.png" class="img-fluid" alt="">
                             <div class="cell-content">
                                 <a href="#">
-                                    <img src="/mobile/assets/images/main/img_link07_1.png" class="img-fluid top-3" alt="">
+                                    <img src="/mobile/assets/images/main/eng/img_link07_1.png" class="img-fluid top-3" alt="">
                                 </a>
                                 <img src="/mobile/assets/images/main/img_space_right_body_center.png" class="img-fluid" alt="">
                                 <a href="#">
-                                    <img src="/mobile/assets/images/main/img_link07_2.png" class="img-fluid" alt="">
+                                    <img src="/mobile/assets/images/main/eng/img_link07_2.png" class="img-fluid" alt="">
                                 </a>
                             </div>
                         </li>
@@ -82,11 +82,11 @@
                         <li>
                             <div class="cell-content">
                                 <a href="#">
-                                    <img src="/mobile/assets/images/main/img_link05_1.png" class="img-fluid" alt="">
+                                    <img src="/mobile/assets/images/main/eng/img_link05_1.png" class="img-fluid" alt="">
                                 </a>
                                 <img src="/mobile/assets/images/main/img_space_bottom_foot_center.png" class="img-fluid" alt="">
                                 <a href="#">
-                                    <img src="/mobile/assets/images/main/img_link06_1.png" class="img-fluid" alt="">
+                                    <img src="/mobile/assets/images/main/eng/img_link06_1.png" class="img-fluid" alt="">
                                 </a>
                             </div>
                             <img src="/mobile/assets/images/main/img_location_bottom.png" class="img-fluid" alt="">

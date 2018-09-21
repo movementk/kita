@@ -16,7 +16,7 @@
         a {
             display: block;
             img {
-                width: 147px;
+                width: 170px;
             }
         }
     }
@@ -121,6 +121,7 @@
                         margin: 5px 0;
                         > li {
                             &:before {
+                                color: #fff;
                                 content: "- ";
                             }
                             > a {
@@ -144,6 +145,14 @@
                         }
                     }
                 }
+                &.eng {
+                    > li {
+                        > a {
+                            font-size: 14px;
+                            letter-spacing: -.5px;
+                        }
+                    }
+                }
             }
         }
         .btn-area {
@@ -152,11 +161,11 @@
             p {
                 font-size: 0;
                 .btn {
-                    width: 145px;
+                    width: 48%;
                     height: 35px;
                     line-height: 33px;
                     font-size: 12px;
-                    margin-right: 10px;
+                    margin-right: 4%;
                     display: inline-block;
                     text-align: center;
                     &:last-child {
@@ -181,6 +190,7 @@
 }
 
 .opened {
+    overflow: hidden;
     #gnb {
         right: 0;
         width: 100%;
