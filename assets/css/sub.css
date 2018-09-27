@@ -69,7 +69,8 @@ a {
   background-color: #f2f2f2; }
 
 #header {
-  opacity: 1 !important; }
+  opacity: 1 !important;
+  z-index: 100; }
 
 #content {
   padding: 160px 0 90px;
@@ -196,7 +197,7 @@ a {
           .company-information .article-content > div.details > dl > dd {
             font-size: 14px;
             color: #666;
-            font-weight: 500;
+            font-weight: 400;
             line-height: 34px;
             padding-left: 100px; }
             .company-information .article-content > div.details > dl > dd a:hover {
@@ -227,6 +228,8 @@ a {
     border: 1px solid #ebebeb; }
     .content-list > li > ul > li > a > figure .img-fulid {
       width: 100%; }
+  .content-list > li > ul > li:nth-of-type(4) ~ li > a {
+    margin-top: 30px; }
   .content-list > li.maps > figure .img-fluid {
     width: 100%;
     display: block;
@@ -234,6 +237,12 @@ a {
 
 .view-details .section-content .btn-area {
   margin-top: 30px; }
+.view-details.view-content .section-content article .article-content {
+  text-align: center;
+  padding: 50px 20px 0; }
+  .view-details.view-content .section-content article .article-content img {
+    display: inline-block;
+    width: 100%; }
 
 .sub-modal-popup .modal-dialog {
   min-width: 830px;
