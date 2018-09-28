@@ -212,6 +212,7 @@
                     figure {
                         .img-fluid {
                             width: 100%;
+                            height: 123px;
                             display: block;
                             margin: 0 auto;
                         }
@@ -271,6 +272,133 @@
                         width: 100%;
                         margin: 0 auto;
                         display: block;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// modal-popup
+.modal-popup {
+    .modal-dialog {
+        min-width: 300px;
+        margin-top: 100px;
+        .modal-content {
+            border: 0;
+            border-radius: 0;
+            .modal-header {
+                overflow: hidden;
+                height: 40px;
+                padding: 0 0 0 10px;
+                border: 0;
+                border-radius: 0;
+                background-color: #b71f25;
+                .modal-title {
+                    font-size: 14px;
+                    color: #fff;
+                    line-height: 40px;
+                }
+                .close {
+                    color: #fff;
+                    width: 40px;
+                    height: 40px;
+                    padding: 0;
+                    float: right;
+                    margin: 0;
+                    border: 0;
+                    opacity: 1 !important;
+                    text-align: center;
+                    img {
+                        width: 12px;
+                        display: block;
+                        margin: 0 auto;
+                    }
+                }
+            }
+            .modal-body {
+                padding: 10px 10px 15px;
+                border-radius: 0;
+                .map-area {
+                    position: relative;
+                    border: 1px solid #ccc;
+                    .img-fluid {
+                        width: 100%;
+                    }
+                    .btn-expand {
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        width: 25px;
+                        height: 25px;
+                        border: 0;
+                        line-height: 25px;
+                        text-align: center;
+                        color: #606060;
+                        background-color: #efefef;
+                        .icon-zoom-in {
+                            position: relative;
+                            top: -2px;
+                            font-size: 12px;
+                        }
+                    }
+                }
+                .table-wrap {
+                    margin-top: 10px;
+                    .table {
+                        margin: 0;
+                        border: 0;
+                        table-layout: fixed;
+                        border-top: 2px solid #b71f25;
+                        tbody {
+                            tr {
+                                th {
+                                    width: 70px;
+                                    font-size: 12px;
+                                    color: #333;
+                                    font-weight: 500;
+                                    text-align: left;
+                                    vertical-align: middle;
+                                    padding-left: 10px;
+                                    border-bottom: 1px solid #ccc;
+                                    background-color: #f5f5f5;
+                                }
+                                td {
+                                    font-size: 12px;
+                                    color: #666;
+                                    font-weight: 400;
+                                    vertical-align: middle;
+                                    border: 0;
+                                    padding: 10px;
+                                    border-bottom: 1px solid #ccc;
+                                    &.number {
+                                        color: #b71f25;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .btn-area {
+                    text-align: right;
+                    margin-top: 10px;
+                    p {
+                        .btn-more {
+                            display: inline-block;
+                            width: 100%;
+                            height: 35px;
+                            font-weight: 400;
+                            line-height: 35px;
+                            text-align: center;
+                            color: #fff;
+                            border: 0;
+                            font-size: 11px;
+                            background-color: #b71f25;
+                            @include transition();
+                            &:hover {
+                                opacity: .7;
+                            }
+                        }
                     }
                 }
             }
