@@ -8,7 +8,7 @@
                         <dt>[北京代表处]</dt>
                         <dd>
                             <ul>
-                                <li>+86-10-6505-2671~3</li>
+                                <li>+82-10-6505-2671~3</li>
                                 <li><a href="mailto:beijingk@kita.net">beijingk@kita.net</a></li>
                             </ul>
                         </dd>
@@ -19,7 +19,7 @@
                         <dt>[上海代表处] </dt>
                         <dd>
                             <ul>
-                                <li>+ 86-21-6236-8286/7</li>
+                                <li>+82-21-6236-8286/7</li>
                                 <li><a href="mailto:kitash01@kita.net">kitash01@kita.net</a></li>
                             </ul>
                         </dd>
@@ -30,7 +30,7 @@
                         <dt>[成都代表处]</dt>
                         <dd>
                             <ul>
-                                <li>+ 86-28-8692-8027</li>
+                                <li>+82-28-8692-8027</li>
                                 <li><a href="mailto:chengdu01@kita.net ">chengdu01@kita.net </a></li>
                             </ul>
                         </dd>

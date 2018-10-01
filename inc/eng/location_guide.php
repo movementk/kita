@@ -15,25 +15,25 @@
                 <li>
                     <a href="#">
                         <h3>2H</h3>
-                        <p class="summary">服务贸易</p>
+                        <p class="summary">汽车展区</p>
                     </a>
                 </li>
                 <li>
                     <a href="#">
                         <h3>3H</h3>
-                        <p class="summary">贸智易能展及区高端装备展区</p>
+                        <p class="summary">智能及高端装备展区</p>
                     </a>
                 </li>
                 <li>
                     <a href="#">
                         <h3>4.1H</h3>
-                        <p class="summary">贸智易能展及区高端装备展区</p>
+                        <p class="summary">智能及高端装备展区</p>
                     </a>
                 </li>
                 <li>
                     <a href="#">
                         <h3>5.1H</h3>
-                        <p class="summary">消费及电子家电展区•</p>
+                        <p class="summary">消费及电子家电展区</p>
                     </a>
                 </li>
                 <li>
