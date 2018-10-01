@@ -17,10 +17,10 @@
                     <nav class="trade-tab">
                         <ul>
                             <li class="active"><a href="#">1H 服务贸易展区</a></li>
-                            <li><a href="#">2H 服务贸易</a></li>
-                            <li><a href="#">3H 贸智易能展及区高端装备展区</a></li>
-                            <li><a href="#">4.1H 贸智易能展及区高端装备展区</a></li>
-                            <li><a href="#">5.1H 消费及电子家电展区•</a></li>
+                            <li><a href="#">2H 汽车展区</a></li>
+                            <li><a href="#">3H 智能及高端装备展区</a></li>
+                            <li><a href="#">4.1H 智能及高端装备展区</a></li>
+                            <li><a href="#">5.1H 消费及电子家电展区</a></li>
                             <li><a href="#">6.1H 服装服饰及日用消费品展区</a></li>
                             <li><a href="#">7.1H 医疗器械及医药保健展区</a></li>
                             <li><a href="#">7.2H 食品及农产品展区</a></li>

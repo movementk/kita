@@ -107,19 +107,19 @@
                             </tr>
                             <tr>
                                 <th>2H</th>
-                                <td><a href="#">服务贸易</a></td>
+                                <td><a href="#">汽车展区</a></td>
                             </tr>
                             <tr>
                                 <th>3H</th>
-                                <td><a href="#">贸智易能展及区高端装备展区</a></td>
+                                <td><a href="#">智能及高端装备展区</a></td>
                             </tr>
                             <tr>
                                 <th>4.1H</th>
-                                <td><a href="#">贸智易能展及区高端装备展区</a></td>
+                                <td><a href="#">智能及高端装备展区</a></td>
                             </tr>
                             <tr>
                                 <th>5.1H</th>
-                                <td><a href="#">消费及电子家电展区•</a></td>
+                                <td><a href="#">消费及电子家电展区</a></td>
                             </tr>
                             <tr>
                                 <th>6.1H</th>
