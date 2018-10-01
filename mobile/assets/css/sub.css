@@ -254,6 +254,23 @@ body {
   background-color: #fff; }
   .content-list > li ~ li {
     margin-top: 10px; }
+  .content-list > li.maps a {
+    position: relative;
+    display: block; }
+    .content-list > li.maps a:after {
+      position: absolute;
+      top: 0;
+      right: 0;
+      font-size: 12px;
+      color: #606060;
+      display: block;
+      width: 20px;
+      height: 20px;
+      line-height: 20px;
+      text-align: center;
+      content: "\E805";
+      font-family: "fontello";
+      background-color: #efefef; }
   .content-list > li.maps figure {
     padding: 0 6%; }
     .content-list > li.maps figure .img-fluid {
@@ -271,6 +288,7 @@ body {
     background-position: 0 50%;
     background-size: 10px auto; }
   .content-list > li > ul > li > a {
+    position: relative;
     display: block;
     border: 1px solid #ebebeb; }
     .content-list > li > ul > li > a figure .img-fluid {
@@ -278,6 +296,20 @@ body {
       height: 123px;
       display: block;
       margin: 0 auto; }
+    .content-list > li > ul > li > a:after {
+      position: absolute;
+      top: 0;
+      right: 0;
+      font-size: 12px;
+      color: #606060;
+      display: block;
+      width: 20px;
+      height: 20px;
+      line-height: 20px;
+      text-align: center;
+      content: "\E805";
+      font-family: "fontello";
+      background-color: #efefef; }
   .content-list > li > ul > li:nth-of-type(2) ~ li > a {
     margin-top: 10px; }
 

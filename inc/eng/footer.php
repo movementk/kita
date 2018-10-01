@@ -50,6 +50,6 @@
             </ul>
         </div>
         <hr>
-        <p class="copyright">COPYRIGHT (C) 2018 KITA. ALL RUGHTS RESERVED.</p>
+        <p class="copyright">COPYRIGHT (C) 2018 KITA. ALL RIGHTS RESERVED.</p>
     </div>
 </footer>
