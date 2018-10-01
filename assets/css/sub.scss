@@ -227,11 +227,30 @@
             }
         }
         &.maps {
-            > figure {
-                .img-fluid {
-                    width: 100%;
+            a {
+                position: relative;
+                display: block;
+                figure {
+                    .img-fluid {
+                        width: 100%;
+                        display: block;
+                        margin: 0 auto;
+                    }
+                }
+                &:after {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    font-size: 16px;
+                    color: #606060;
                     display: block;
-                    margin: 0 auto;
+                    width: 40px;
+                    height: 40px;
+                    line-height: 40px;
+                    text-align: center;
+                    content: "\E803";
+                    font-family: "fontello";
+                    background-color: #efefef;
                 }
             }
         }

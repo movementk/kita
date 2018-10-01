@@ -246,10 +246,27 @@ a {
       background-color: #efefef; }
   .content-list > li > ul > li:nth-of-type(4) ~ li > a {
     margin-top: 30px; }
-  .content-list > li.maps > figure .img-fluid {
-    width: 100%;
-    display: block;
-    margin: 0 auto; }
+  .content-list > li.maps a {
+    position: relative;
+    display: block; }
+    .content-list > li.maps a figure .img-fluid {
+      width: 100%;
+      display: block;
+      margin: 0 auto; }
+    .content-list > li.maps a:after {
+      position: absolute;
+      top: 0;
+      right: 0;
+      font-size: 16px;
+      color: #606060;
+      display: block;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      content: "\E803";
+      font-family: "fontello";
+      background-color: #efefef; }
 
 .view-details .section-content .btn-area {
   margin-top: 30px; }
