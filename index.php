@@ -50,9 +50,9 @@
             </div>
         </section>
 
-        <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/eng/location_guide.php'); ?>
-        <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/eng/service_trade.php'); ?>
-        <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/eng/footer.php'); ?>
+        <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/chn/location_guide.php'); ?>
+        <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/chn/service_trade.php'); ?>
+        <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/chn/footer.php'); ?>
     </main>
 
     <!-- Modal popup -->

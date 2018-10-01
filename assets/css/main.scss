@@ -204,6 +204,7 @@
         background-image: url(/assets/images/bg_service_trade.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        background-color: #f6f6f6;
         background-position: 50% 50%;
         .section-content {
             .trade-tab {
@@ -285,7 +286,9 @@
     .modal-dialog {
         min-width: 830px;
         margin-top: 100px;
+        margin-bottom: 100px;
         .modal-content {
+            display: block !important;
             border: 0;
             border-radius: 0;
             .modal-header {

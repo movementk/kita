@@ -286,6 +286,7 @@
         min-width: 830px;
         margin-top: 120px;
         .modal-content {
+            display: block !important;
             border: 0;
             border-radius: 0;
             .modal-header {
