@@ -244,6 +244,7 @@ a {
             color: #666;
             font-weight: 400;
             line-height: 34px;
+            min-height: 34px;
             padding-left: 100px; }
             .company-information .article-content > div.details > dl > dd a:hover {
               color: inherit;
