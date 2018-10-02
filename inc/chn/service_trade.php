@@ -6,17 +6,22 @@
         </div>
         <div class="section-content">
             <nav class="trade-tab">
-                <ul>
-                    <li class="active"><a href="#">1H 服务贸易展区</a></li>
-					<li><a href="#">2H 汽车展区</a></li>
-					<li><a href="#">3H 智能及高端装备展区</a></li>
-					<li><a href="#">4.1H 智能及高端装备展区</a></li>
-					<li><a href="#">5.1H 消费及电子家电展区</a></li>
-					<li><a href="#">6.1H 服装服饰及日用消费品展区</a></li>
-					<li><a href="#">7.1H 医疗器械及医药保健展区</a></li>
-					<li><a href="#">7.2H 食品及农产品展区</a></li>
-					<li><a href="#">8.2H 食品及农产品展区</a></li> 
-                </ul>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        1H 服务贸易展区
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">1H 服务贸易展区</a>
+                        <a class="dropdown-item" href="#">2H 汽车展区</a>
+                        <a class="dropdown-item" href="#">3H 智能及高端装备展区</a>
+                        <a class="dropdown-item" href="#">4.1H 智能及高端装备展区</a>
+                        <a class="dropdown-item" href="#">5.1H 消费及电子家电展区</a>
+                        <a class="dropdown-item" href="#">6.1H 服装服饰及日用消费品展区</a>
+                        <a class="dropdown-item" href="#">7.1H 医疗器械及医药保健展区</a>
+                        <a class="dropdown-item" href="#">7.2H 食品及农产品展区</a>
+                        <a class="dropdown-item" href="#">8.2H 食品及农产品展区</a>
+                    </div>
+                </div>
             </nav>
             <article class="trade-list">
                 <ul class="row">

@@ -59,6 +59,18 @@
       "css": "circle-empty",
       "code": 61708,
       "src": "fontawesome"
+    },
+    {
+      "uid": "8704cd847a47b64265b8bb110c8b4d62",
+      "css": "down-open",
+      "code": 59394,
+      "src": "entypo"
+    },
+    {
+      "uid": "9c7ff134960bb5a82404e4aeaab366d9",
+      "css": "up-open",
+      "code": 59397,
+      "src": "entypo"
     }
   ]
 }
