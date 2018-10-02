@@ -38,6 +38,12 @@
                 </li>
                 <li>
                     <a href="#">
+                        <h3>5.2H</h3>
+                        <p class="summary">韩国宣传馆</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
                         <h3>6.1H</h3>
                         <p class="summary">服装服饰及日用消费品展区</p>
                     </a>
@@ -76,7 +82,10 @@
                         <img src="/assets/images/main/img_area04.png" alt="">
                     </a>
                     <a href="#" class="area-5">
-                        <img src="/assets/images/main/img_area05.png" alt="">
+                        <img src="/assets/images/main/img_area05_01.png" alt="">
+                    </a>
+                    <a href="#" class="area-5-2">
+                        <img src="/assets/images/main/img_area05_02.png" alt="">
                     </a>
                     <a href="#" class="area-6">
                         <img src="/assets/images/main/img_area06.png" alt="">
