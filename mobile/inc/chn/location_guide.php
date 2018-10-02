@@ -81,9 +81,15 @@
                         </li>
                         <li>
                             <div class="cell-content">
-                                <a href="#">
-                                    <img src="/mobile/assets/images/main/img_link05_1.png" class="img-fluid" alt="">
-                                </a>
+                                <div>
+                                    <a href="#">
+                                        <img src="/mobile/assets/images/main/img_link05_2.png" class="img-fluid" alt="">
+                                    </a>
+                                    <img src="/mobile/assets/images/main/img_space_bottom_foot05_center.png" class="img-fluid" alt="">
+                                    <a href="#">
+                                        <img src="/mobile/assets/images/main/img_link05_1.png" class="img-fluid" alt="">
+                                    </a>
+                                </div>
                                 <img src="/mobile/assets/images/main/img_space_bottom_foot_center.png" class="img-fluid" alt="">
                                 <a href="#">
                                     <img src="/mobile/assets/images/main/img_link06_1.png" class="img-fluid" alt="">

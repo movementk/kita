@@ -306,10 +306,17 @@ body {
           .location-guide .section-content .booth .foot > ul > li .cell-content {
             display: table;
             width: 100%; }
+            .location-guide .section-content .booth .foot > ul > li .cell-content > div {
+              display: table-cell;
+              vertical-align: top; }
+              .location-guide .section-content .booth .foot > ul > li .cell-content > div > a {
+                display: block; }
+              .location-guide .section-content .booth .foot > ul > li .cell-content > div .img-fluid {
+                display: block; }
             .location-guide .section-content .booth .foot > ul > li .cell-content > .img-fluid {
               display: table-cell;
               vertical-align: top; }
-            .location-guide .section-content .booth .foot > ul > li .cell-content a {
+            .location-guide .section-content .booth .foot > ul > li .cell-content > a {
               display: table-cell;
               vertical-align: top; }
   .location-guide .section-content .guide-list {

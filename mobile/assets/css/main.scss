@@ -226,11 +226,21 @@
                         .cell-content {
                             display: table;
                             width: 100%;
+                            > div {
+                                display: table-cell;
+                                vertical-align: top;
+                                > a {
+                                    display: block;
+                                }
+                                .img-fluid {
+                                    display: block;
+                                }
+                            }
                             > .img-fluid {
                                 display: table-cell;
                                 vertical-align: top;
                             }
-                            a {
+                            > a {
                                 display: table-cell;
                                 vertical-align: top;
                             }
