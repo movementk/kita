@@ -15,7 +15,8 @@
                         <a class="dropdown-item" href="#">2H 汽车展区</a>
                         <a class="dropdown-item" href="#">3H 智能及高端装备展区</a>
                         <a class="dropdown-item" href="#">4.1H 智能及高端装备展区</a>
-                        <a class="dropdown-item" href="#">5.1H 消费及电子家电展区</a>
+                        <a class="dropdown-item" href="#">5.1H 韩国宣传馆</a>
+                        <a class="dropdown-item" href="#">5.2H 消费及电子家电展区</a>
                         <a class="dropdown-item" href="#">6.1H 服装服饰及日用消费品展区</a>
                         <a class="dropdown-item" href="#">7.1H 医疗器械及医药保健展区</a>
                         <a class="dropdown-item" href="#">7.2H 食品及农产品展区</a>
