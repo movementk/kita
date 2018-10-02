@@ -311,17 +311,22 @@
                                     background-color: #8a538c;
                                 }
                             }
-                            &:nth-of-type(6) {
+							&:nth-of-type(6) {
                                 th {
-                                    background-color: #7fbe31;
+                                    background-color: #3f9f91;
                                 }
                             }
                             &:nth-of-type(7) {
                                 th {
+                                    background-color: #7fbe31;
+                                }
+                            }
+                            &:nth-of-type(8) {
+                                th {
                                     background-color: #bd9865;
                                 }
                             }
-                            &:nth-of-type(8), &:nth-of-type(9) {
+                            &:nth-of-type(9), &:nth-of-type(10) {
                                 th {
                                     background-color: #345cb3;
                                 }
