@@ -96,45 +96,90 @@ a {
       font-weight: 300;
       font-family: 'Arial', sans-serif; }
 
+/*.trade-tab {
+    margin-bottom: 50px;
+    > ul {
+        overflow: hidden;
+        width: 100%;
+        > li {
+            float: left;
+            width: 33.33%;
+            > a {
+                display: block;
+                font-size: 15px;
+                color: #666;
+                text-align: center;
+                line-height: 54px;
+                border: 1px solid #ccc;
+                border-left: 0;
+                background-color: #fff;
+                @include transition();
+                &:hover {
+                    color: #b71f25;
+                }
+            }
+            &.active {
+                > a {
+                    color: #fff;
+                    border-color: #b71f25 !important;
+                    background-color: #b71f25;
+                    &:hover {
+                        opacity: 1;
+                    }
+                }
+            }
+            &:nth-of-type(3n + 1) {
+                clear: both;
+                > a {
+                    border-left: 1px solid #ccc;
+                }
+            }
+            &:nth-of-type(3) ~ li {
+                > a {
+                    border-top: 0;
+                }
+            }
+        }
+    }
+}*/
 .trade-tab {
   margin-bottom: 50px; }
-  .trade-tab > ul {
-    overflow: hidden;
-    width: 100%; }
-    .trade-tab > ul > li {
-      float: left;
-      width: 33.33%; }
-      .trade-tab > ul > li > a {
-        display: block;
+  .trade-tab .dropdown {
+    display: block;
+    width: 540px;
+    margin: 0 auto; }
+    .trade-tab .dropdown .btn-secondary {
+      width: 100%;
+      color: #fff;
+      font-size: 15px;
+      text-align: left;
+      line-height: 54px;
+      padding: 0 15px;
+      background-color: #b71f25 !important; }
+      .trade-tab .dropdown .btn-secondary:after {
+        width: auto;
+        font-size: 20px;
+        float: right;
+        border: 0;
+        content: "\E802";
+        font-family: "fontello"; }
+    .trade-tab .dropdown .dropdown-menu {
+      margin: 0;
+      padding: 0;
+      border-top: 0;
+      border-bottom: 0;
+      min-width: 100%;
+      transform: translate3d(0px, 54px, 0px) !important;
+      border-radius: 0; }
+      .trade-tab .dropdown .dropdown-menu > a {
         font-size: 15px;
-        color: #666;
-        text-align: center;
+        display: block;
+        padding: 0 15px;
+        border: 0;
         line-height: 54px;
-        border: 1px solid #ccc;
-        border-left: 0;
-        background-color: #fff;
-        -webkit-transition-property: all;
-        transition-property: all;
-        -webkit-transition-duration: 0.15s;
-        transition-duration: 0.15s;
-        -webkit-transition-timing-function: linear;
-        transition-timing-function: linear;
-        -webkit-transition-delay: 0s;
-        transition-delay: 0s; }
-        .trade-tab > ul > li > a:hover {
-          color: #b71f25; }
-      .trade-tab > ul > li.active > a {
-        color: #fff;
-        border-color: #b71f25 !important;
-        background-color: #b71f25; }
-        .trade-tab > ul > li.active > a:hover {
-          opacity: 1; }
-      .trade-tab > ul > li:nth-of-type(3n + 1) {
-        clear: both; }
-        .trade-tab > ul > li:nth-of-type(3n + 1) > a {
-          border-left: 1px solid #ccc; }
-      .trade-tab > ul > li:nth-of-type(3) ~ li > a {
-        border-top: 0; }
+        border-bottom: 1px solid #ccc; }
+    .trade-tab .dropdown.show .btn-secondary:after {
+      content: "\E805"; }
 
 .btn-area {
   text-align: right; }
