@@ -328,4 +328,10 @@ body {
     margin: 20px 0;
     border-top: 1px solid #3e3e3e; }
 
+body.eng #header #gnb .gnb-wrap .gnb-body > ul > li > a {
+  font-size: 14px;
+  letter-spacing: -.5px; }
+body.eng #header #gnb .gnb-wrap .gnb-body > ul > li > ul > li > a {
+  font-size: 14px; }
+
 /*# sourceMappingURL=default.css.map */
