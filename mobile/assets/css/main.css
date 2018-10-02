@@ -364,10 +364,12 @@ body {
         .location-guide .section-content .guide-list .table-wrap .table tbody tr:nth-of-type(5) th {
           background-color: #8a538c; }
         .location-guide .section-content .guide-list .table-wrap .table tbody tr:nth-of-type(6) th {
-          background-color: #7fbe31; }
+          background-color: #3f9f91; }
         .location-guide .section-content .guide-list .table-wrap .table tbody tr:nth-of-type(7) th {
+          background-color: #7fbe31; }
+        .location-guide .section-content .guide-list .table-wrap .table tbody tr:nth-of-type(8) th {
           background-color: #bd9865; }
-        .location-guide .section-content .guide-list .table-wrap .table tbody tr:nth-of-type(8) th, .location-guide .section-content .guide-list .table-wrap .table tbody tr:nth-of-type(9) th {
+        .location-guide .section-content .guide-list .table-wrap .table tbody tr:nth-of-type(9) th, .location-guide .section-content .guide-list .table-wrap .table tbody tr:nth-of-type(10) th {
           background-color: #345cb3; }
         .location-guide .section-content .guide-list .table-wrap .table tbody tr:last-child th, .location-guide .section-content .guide-list .table-wrap .table tbody tr:last-child td {
           border-bottom: 0; }
