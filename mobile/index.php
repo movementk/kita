@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="/mobile/assets/css/main.css">
 </head>
 <body>
-    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/chn/header.php'); ?>
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/eng/header.php'); ?>
     <!-- Content -->
     <main id="content">
         <!-- intro -->

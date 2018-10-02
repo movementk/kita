@@ -73,6 +73,14 @@
                     </ul>
                 </li>
                 <li>
+                    <a href="#">韩国宣传馆<span></span></a>
+                    <ul>
+                        <li><a href="#">menu1</a></li>
+                        <li><a href="#">menu2</a></li>
+                        <li><a href="#">menu3</a></li>
+                    </ul>
+                </li>
+                <li>
                     <a href="#">服装服饰及日用消费品展区<span></span></a>
                     <ul>
                         <li><a href="#">menu1</a></li>
