@@ -169,10 +169,12 @@ a {
         .section.location-guide .section-content .guide-list > li:nth-of-type(5).active > a {
           background-color: #8a538c; }
         .section.location-guide .section-content .guide-list > li:nth-of-type(6).active > a {
-          background-color: #7fbe31; }
+          background-color: #3f9f91; }
         .section.location-guide .section-content .guide-list > li:nth-of-type(7).active > a {
+          background-color: #7fbe31; }
+        .section.location-guide .section-content .guide-list > li:nth-of-type(8).active > a {
           background-color: #bd9865; }
-        .section.location-guide .section-content .guide-list > li:nth-of-type(8).active > a, .section.location-guide .section-content .guide-list > li:nth-of-type(9).active > a {
+        .section.location-guide .section-content .guide-list > li:nth-of-type(9).active > a, .section.location-guide .section-content .guide-list > li:nth-of-type(10).active > a {
           background-color: #345cb3; }
     .section.location-guide .section-content .location-area {
       position: relative;
@@ -503,5 +505,8 @@ a {
         transition-delay: 0s; }
       .intro .section-content .ico-scroll.on img {
         top: 0px; }
+
+body.eng .section.location-guide .section-content .guide-list > li > a > .summary {
+  width: 440px !important; }
 
 /*# sourceMappingURL=main.css.map */

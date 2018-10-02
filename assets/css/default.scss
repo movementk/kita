@@ -339,7 +339,14 @@ body {
                     > ul {
                         > li {
                             > a {
-                                font-size: 24px !important;
+                                font-size: 21px !important;
+                            }
+                            > ul {
+                                > li {
+                                    > a {
+                                        font-size: 18px !important;
+                                    }
+                                }
                             }
                         }
                     }

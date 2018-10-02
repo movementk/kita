@@ -118,21 +118,28 @@
                             }
                         }
                     }
-                    &:nth-of-type(6) {
+					&:nth-of-type(6) {
                         &.active {
                             > a {
-                                background-color: #7fbe31;
+                                background-color: #3f9f91;
                             }
                         }
                     }
                     &:nth-of-type(7) {
                         &.active {
                             > a {
+                                background-color: #7fbe31;
+                            }
+                        }
+                    }
+                    &:nth-of-type(8) {
+                        &.active {
+                            > a {
                                 background-color: #bd9865;
                             }
                         }
                     }
-                    &:nth-of-type(8), &:nth-of-type(9) {
+                    &:nth-of-type(9), &:nth-of-type(10) {
                         &.active {
                             > a {
                                 background-color: #345cb3;
@@ -545,8 +552,25 @@
         }
     }
 }
-
-
+body {
+    &.eng {
+        .section {
+            &.location-guide {
+                .section-content {
+                    .guide-list {
+                        > li {
+                            > a {
+                                > .summary {
+                                    width: 440px !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 
