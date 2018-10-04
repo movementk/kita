@@ -47,5 +47,5 @@
         </li>
     </ul>
     <hr>
-    <p class="copyright">COPYRIGHT (C) KITA. ALL RIGHTS RESERVED.</p>
+    <p class="copyright">COPYRIGHT (C) KITA. ALL RIGHTS RESERVED.<a href="http://www.kita.org" target="_blank">http://www.kita.org </a></p>
 </footer>
