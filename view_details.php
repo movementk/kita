@@ -30,6 +30,9 @@
                     <article class="company-information">
                         <div class="article-header">
                             <h3>ECOBIZNET INC.</h3>
+                            <figure>
+                                aaa
+                            </figure>
                         </div>
                         <div class="article-content">
                             <div class="company-logo">

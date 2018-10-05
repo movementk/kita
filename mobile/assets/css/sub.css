@@ -195,12 +195,20 @@ body {
     border: 1px solid #dfdfdf;
     background-color: #fff; }
     .view-details .section-content .company-information .article-header {
+      overflow: hidden;
       padding-bottom: 10px;
       border-bottom: 2px solid #b71f25; }
       .view-details .section-content .company-information .article-header h3 {
         font-size: 16px;
         color: #333;
-        font-weight: 500; }
+        font-weight: 500;
+        float: left; }
+      .view-details .section-content .company-information .article-header figure {
+        float: right; }
+        .view-details .section-content .company-information .article-header figure img {
+          display: inline-block; }
+          .view-details .section-content .company-information .article-header figure img:first-child {
+            margin-right: 10px; }
     .view-details .section-content .company-information .article-content figure {
       margin-top: 15px; }
       .view-details .section-content .company-information .article-content figure .img-fluid {

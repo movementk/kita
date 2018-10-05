@@ -164,12 +164,23 @@
     border: 1px solid #dfdfdf;
     background-color: #fff;
     .article-header {
+        overflow: hidden;
         padding-bottom: 25px;
         border-bottom: 3px solid #b71f25;
         h3 {
             font-size: 30px;
             color: #333;
             font-weight: 500;
+            float: left;
+        }
+        figure {
+            float: right;
+            img {
+                display: inline-block;
+                &:first-child {
+                    margin-right: 10px;
+                }
+            }
         }
     }
     .article-content {
