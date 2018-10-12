@@ -221,8 +221,6 @@ a {
       float: right; }
       .company-information .article-header figure img {
         display: inline-block; }
-        .company-information .article-header figure img:first-child {
-          margin-right: 10px; }
   .company-information .article-content {
     display: table;
     width: 100%;

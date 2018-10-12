@@ -104,10 +104,7 @@
                 figure {
                     float: right;
                     img {
-                        display: inline-block;
-                        &:first-child {
-                            margin-right: 10px;
-                        }
+                        width: 120px;
                     }
                 }
             }

@@ -206,9 +206,7 @@ body {
       .view-details .section-content .company-information .article-header figure {
         float: right; }
         .view-details .section-content .company-information .article-header figure img {
-          display: inline-block; }
-          .view-details .section-content .company-information .article-header figure img:first-child {
-            margin-right: 10px; }
+          width: 120px; }
     .view-details .section-content .company-information .article-content figure {
       margin-top: 15px; }
       .view-details .section-content .company-information .article-content figure .img-fluid {
